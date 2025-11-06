@@ -4,7 +4,7 @@ A modern, responsive, and highly interactive personal portfolio website built fr
 
 ## 🚀 Live Demo & Preview
 
-Check out the live site: portfolio1-seven-self.vercel.app
+Check out the live site: [portfolio1-seven-self.vercel.app](https://my-portfolio-eta-lemon-96.vercel.app/)
 
 <p align="center">
   <img src="Preview.png" alt="Portfolio Preview" width="800">
