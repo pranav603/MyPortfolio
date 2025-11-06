@@ -6,8 +6,9 @@ A modern, responsive, and highly interactive personal portfolio website built fr
 
 Check out the live site: portfolio1-seven-self.vercel.app
 
-(Add a high-quality GIF or screenshot of your portfolio here! This is the best way to show off the animations.)
-
+<p align="center">
+  <img src="Preview.png" alt="Portfolio Preview" width="800">
+</p>
 ## ✨ Features
 
 This portfolio is packed with modern features to create a memorable "wow" effect.
