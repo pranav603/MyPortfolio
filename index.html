@@ -1,0 +1,305 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Pranav Raj | Frontend Web Developer</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css" />
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/devicons/devicon@v2.15.1/devicon.min.css">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body class="font-sans">
+  
+  <!-- --- NEW: Preloader --- -->
+  <div id="preloader" class="fixed top-0 left-0 w-full h-full bg-[#050505] z-[100] flex justify-center items-center transition-opacity duration-500 ease-out">
+    <h1 class="text-4xl md:text-6xl font-bold gradient-text animate-pulse">
+      PRANAV RAJ
+    </h1>
+  </div>
+  
+  <div id="spotlight"></div>
+
+ 
+  <div id="vanta-bg"></div>
+
+
+  <header id="navbar" class="sticky top-0 w-full bg-black/60 backdrop-blur-md z-50">
+    <nav class="max-w-6xl mx-auto flex justify-between items-center py-4 px-6">
+      <h1 class="text-2xl font-bold gradient-text">PRANAV RAJ</h1>
+      <ul class="hidden md:flex space-x-8 text-gray-300">
+        <li><a href="#about" class="hover:text-cyan-400 transition">About</a></li>
+        <li><a href="#skills" class="hover:text-cyan-400 transition">Skills</a></li>
+        <li><a href="#projects" class="hover:text-cyan-400 transition">Projects</a></li>
+        <li><a href="#resume" class="hover:text-cyan-400 transition">Resume</a></li>
+        <li><a href="#contact" class="hover:text-cyan-400 transition">Contact</a></li>
+      </ul>
+      <div class="flex items-center space-x-4">
+        <a href="https://github.com/pranav603" target="_blank" class="text-gray-300 hover:text-cyan-400 transition-transform hover:scale-125" aria-label="View my GitHub profile">
+          <i class="fab fa-github text-xl" aria-hidden="true"></i>
+        </a>
+        <a href="https://www.linkedin.com/in/pranav-raj-4a0154302/" target="_blank" class="text-gray-300 hover:text-cyan-400 transition-transform hover:scale-125" aria-label="View my LinkedIn profile">
+          <i class="fab fa-linkedin text-xl" aria-hidden="true"></i>
+        </a>
+        <a href="#contact" class="text-gray-300 hover:text-cyan-400 transition-transform hover:scale-125" aria-label="Email me">
+          <i class="fas fa-envelope text-xl" aria-hidden="true"></i>
+        </a>
+      </div>
+
+      <button id="menu-btn" class="md:hidden text-gray-300 hover:text-cyan-400 focus:outline-none z-50 ml-4">
+        <i class="fas fa-bars text-2xl" aria-hidden="true"></i>
+      </button>
+    </nav>
+  </header>
+
+  <div id="mobile-menu" class="hidden md:hidden fixed top-0 left-0 w-full h-screen bg-black/95 backdrop-blur-lg z-40 flex items-center justify-center">
+    <ul class="flex flex-col items-center space-y-8 text-2xl text-gray-300">
+      <li><a href="#about" class="mobile-menu-link hover:text-cyan-400 transition">About</a></li>
+      <li><a href="#skills" class="mobile-menu-link hover:text-cyan-400 transition">Skills</a></li>
+      <li><a href="#projects" class="mobile-menu-link hover:text-cyan-400 transition">Projects</a></li>
+      <li><a href="#resume" class="mobile-menu-link hover:text-cyan-400 transition">Resume</a></li>
+      <li><a href="#contact" class="mobile-menu-link hover:text-cyan-400 transition">Contact</a></li>
+    </ul>
+  </div>
+
+  <main>
+    <section class="min-h-screen flex flex-col justify-center items-center text-center px-6 bg-transparent rounded-none my-0">
+     
+      <div>
+        <h1 class="text-8xl md:text-9xl font-extrabold mb-2 gradient-text">Frontend</h1>
+        <h2 class="text-5xl md:text-6xl font-bold mb-6 gradient-text typing">Web Developer</h2>
+        <p class="text-cyan-400 text-lg mb-12">Web Developer | Designer | Coder</p>
+        <a href="#contact" class="bg-cyan-500 text-black font-semibold px-12 py-5 text-xl rounded-full hover:bg-cyan-400 transition">Let's Connect</a>
+      </div>
+    </section>
+
+    <section id="about">
+      <div class="max-w-6xl mx-auto flex flex-col md:flex-row items-center justify-between px-6 py-24">
+        <div class="md:w-1/2 space-y-6">
+          <h2 class="text-6xl font-extrabold text-white leading-snug">Hi, I'm <span class="text-cyan-400">Pranav</span><br>Passionate About <span class="gradient-text typing">Development</span></h2>
+          <p class="text-gray-400 text-lg mt-4">Final Year CSE student and Frontend Developer. I specialize in building scalable web applications using React, Next.js, Node.js, Express, and databases like MongoDB & MySQL. Experienced with cloud deployment on Vercel, Render, and Firebase, and integrating APIs like OpenAI & GenAI. I focus on problem-solving, clean architecture, and developing efficient, maintainable code. Open to software development and frontend engineering opportunities.</p>
+        </div>
+        <div class="md:w-1/2 flex justify-center mt-10 md:mt-0">
+          <img src="./Assets/profile.jpeg" alt="A headshot of Pranav Raj, smiling" class="rounded-2xl border-4 border-cyan-500 shadow-lg" />
+        </div>
+      </div>
+    </section>
+
+    <section id="skills">
+      <h2 class="text-4xl font-bold mb-16 gradient-text text-center">My Tech Stack</h2>
+      <div class="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-5 gap-8 max-w-6xl mx-auto">
+        
+        <div class="flex flex-col items-center p-6 bg-gray-900/80 border border-gray-800 rounded-2xl text-center transition-all duration-300 hover:border-cyan-500 hover:shadow-lg hover:shadow-cyan-500/20 hover:scale-105">
+          <i class="devicon-html5-plain colored text-6xl mb-3"></i>
+          <span class="text-lg text-gray-300">HTML</span>
+        </div>
+        
+        <div class="flex flex-col items-center p-6 bg-gray-900/80 border border-gray-800 rounded-2xl text-center transition-all duration-300 hover:border-cyan-500 hover:shadow-lg hover:shadow-cyan-500/20 hover:scale-105">
+          <i class="devicon-css3-plain colored text-6xl mb-3"></i>
+          <span class="text-lg text-gray-300">CSS</span>
+        </div>
+        
+        <div class="flex flex-col items-center p-6 bg-gray-900/80 border border-gray-800 rounded-2xl text-center transition-all duration-300 hover:border-cyan-500 hover:shadow-lg hover:shadow-cyan-500/20 hover:scale-105">
+          <i class="devicon-javascript-plain colored text-6xl mb-3"></i>
+          <span class="text-lg text-gray-300">JavaScript</span>
+        </div>
+        
+        <div class="flex flex-col items-center p-6 bg-gray-900/80 border border-gray-800 rounded-2xl text-center transition-all duration-300 hover:border-cyan-500 hover:shadow-lg hover:shadow-cyan-500/20 hover:scale-105">
+          <i class="devicon-tailwindcss-plain colored text-6xl mb-3"></i>
+          <span class="text-lg text-gray-300">Tailwind CSS</span>
+        </div>
+        
+        <div class="flex flex-col items-center p-6 bg-gray-900/80 border border-gray-800 rounded-2xl text-center transition-all duration-300 hover:border-cyan-500 hover:shadow-lg hover:shadow-cyan-500/20 hover:scale-105">
+          <i class="devicon-react-original colored text-6xl mb-3"></i>
+          <span class="text-lg text-gray-300">React</span>
+        </div>
+        
+        <div class="flex flex-col items-center p-6 bg-gray-900/80 border border-gray-800 rounded-2xl text-center transition-all duration-300 hover:border-cyan-500 hover:shadow-lg hover:shadow-cyan-500/20 hover:scale-105">
+          <i class="devicon-nodejs-plain colored text-6xl mb-3"></i>
+          <span class="text-lg text-gray-300">Node.js</span>
+        </div>
+        
+        <div class="flex flex-col items-center p-6 bg-gray-900/80 border border-gray-800 rounded-2xl text-center transition-all duration-300 hover:border-cyan-500 hover:shadow-lg hover:shadow-cyan-500/20 hover:scale-1Donec">
+          <i class="devicon-express-original text-6xl mb-3 text-gray-400"></i>
+          <span class="text-lg text-gray-300">Express.js</span>
+        </div>
+        
+        <div class="flex flex-col items-center p-6 bg-gray-900/80 border border-gray-800 rounded-2xl text-center transition-all duration-300 hover:border-cyan-500 hover:shadow-lg hover:shadow-cyan-500/20 hover:scale-105">
+          <i class="devicon-mongodb-plain colored text-6xl mb-3"></i>
+          <span class="text-lg text-gray-300">MongoDB</span>
+        </div>
+        
+        <div class="flex flex-col items-center p-6 bg-gray-900/80 border border-gray-800 rounded-2xl text-center transition-all duration-300 hover:border-cyan-500 hover:shadow-lg hover:shadow-cyan-500/20 hover:scale-105">
+          <i class="devicon-git-plain colored text-6xl mb-3"></i>
+          <span class="text-lg text-gray-300">Git</span>
+        </div>
+        
+        <div class="flex flex-col items-center p-6 bg-gray-900/80 border border-gray-800 rounded-2xl text-center transition-all duration-300 hover:border-cyan-500 hover:shadow-lg hover:shadow-cyan-500/20 hover:scale-105">
+          <i class="devicon-github-original text-6xl mb-3 text-gray-400"></i>
+          <span class="text-lg text-gray-300">GitHub</span>
+        </div>
+        
+        <div class="flex flex-col items-center p-6 bg-gray-900/80 border border-gray-800 rounded-2xl text-center transition-all duration-300 hover:border-cyan-500 hover:shadow-lg hover:shadow-cyan-500/20 hover:scale-105">
+          <i class="devicon-visualstudio-plain colored text-6xl mb-3"></i>
+          <span class="text-lg text-gray-300">VS Code</span>
+        </div>
+        
+        <div class="flex flex-col items-center p-6 bg-gray-900/80 border border-gray-800 rounded-2xl text-center transition-all duration-300 hover:border-cyan-500 hover:shadow-lg hover:shadow-cyan-500/20 hover:scale-105">
+          <i class="devicon-linux-plain text-6xl mb-3 text-gray-400"></i>
+          <span class="text-lg text-gray-300">Linux</span>
+        </div>
+
+        <div class="flex flex-col items-center p-6 bg-gray-900/80 border border-gray-800 rounded-2xl text-center transition-all duration-300 hover:border-cyan-500 hover:shadow-lg hover:shadow-cyan-500/20 hover:scale-105">
+          <i class="devicon-figma-plain colored text-6xl mb-3"></i>
+          <span class="text-lg text-gray-300">Figma</span>
+        </div>
+
+        <div class="flex flex-col items-center p-6 bg-gray-900/80 border border-gray-800 rounded-2xl text-center transition-all duration-300 hover:border-cyan-500 hover:shadow-lg hover:shadow-cyan-500/2D hover:scale-105">
+      <i class="devicon-cplusplus-plain colored text-6xl mb-3"></i>
+          <span class="text-lg text-gray-300">C++</span>
+        </div>
+        
+        <div class="flex flex-col items-center p-6 bg-gray-900/80 border border-gray-800 rounded-2xl text-center transition-all duration-300 hover:border-cyan-500 hover:shadow-lg hover:shadow-cyan-500/20 hover:scale-105">
+          <i class="devicon-python-plain colored text-6xl mb-3"></i>
+          <span class="text-lg text-gray-300">Python</span>
+        </div>
+
+      </div>
+    </section>
+
+    <!-- Projects Section -->
+    <section id="projects">
+      <h2 class="text-4xl font-bold mb-10 gradient-text text-center">Projects</h2>
+      <div class="grid md:grid-cols-2 gap-10 max-w-6xl mx-auto">
+        
+        <div class="project bg-gray-900/80 border border-gray-800 p-8 rounded-2xl transition-all duration-300">
+          <img src="./Assets/musicApp.png" alt="Screenshot of a web music player project" class="rounded-xl mb-4">
+          <h3 class="text-2xl text-cyan-400 font-semibold mb-2">Music App</h3>
+          <p class="text-gray-400 mb-4">🎧 A responsive web music player built with HTML, CSS, and JavaScript</p>
+          <div class="flex space-x-4">
+            <a href="https://music-e5qnep7jc-pranavs-projects-53695f8f.vercel.app/" target="_blank" class="bg-cyan-500 text-black px-5 py-2 rounded-lg font-semibold hover:bg-cyan-400">Live Demo</a>
+            <a href="https://github.com/pranav603/MusicApp" target="_blank" class="border border-cyan-500 text-cyan-400 px-5 py-2 rounded-lg font-semibold hover:bg-cyan-500/10">GitHub Repo</a>
+          </div>
+        </div>
+        
+        <div class="project bg-gray-900/80 border border-gray-800 p-8 rounded-2xl transition-all duration-300">
+          <img src="./Assets/Weather.png" alt="Screenshot of a weather app project" class="rounded-xl mb-4">
+          <h3 class="text-2xl text-cyan-400 font-semibold mb-2">Weather App</h3>
+          <p class="text-gray-400 mb-4">Displays live weather updates using OpenWeather API.</p>
+          <div class="flex space-x-4">
+            <a href="https://weather-app-tcox.vercel.app/" target="_blank" class="bg-cyan-500 text-black px-5 py-2 rounded-lg font-semibold hover:bg-cyan-400">Live Demo</a>
+            <a href="https://github.com/pranav603/WeatherApp/tree/main" target="_blank" class="border border-cyan-500 text-cyan-400 px-5 py-2 rounded-lg font-semibold hover:bg-cyan-500/10">GitHub Repo</a>
+          </div>
+        </div>
+        
+        <div class="project bg-gray-900/80 border border-gray-800 p-8 rounded-2xl transition-all duration-300">
+          <img src="./Assets/portfoilio.png" alt="Screenshot of this portfolio website project" class="rounded-xl mb-4">
+          <h3 class="text-2xl text-cyan-400 font-semibold mb-2">Portfolio Website</h3>
+          <p class="text-gray-400 mb-4">A modern personal portfolio to showcase my skills and work.</p>
+          <div class="flex space-x-4">
+            <a href="https://portfolio1-seven-self.vercel.app/" target="_blank" class="bg-cyan-500 text-black px-5 py-2 rounded-lg font-semibold hover:bg-cyan-400">Live Demo</a>
+            <a href="https://github.com/pranav603/Portfolio" target="_blank" class="border border-cyan-500 text-cyan-400 px-5 py-2 rounded-lg font-semibold hover:bg-cyan-500/10">GitHub Repo</a>
+          </div>
+        </div>
+        
+        <div class="project bg-gray-900/80 border border-gray-800 p-8 rounded-2xl transition-all duration-300">
+          <img src="./Assets/Ecommerce.png" alt="Screenshot of an e-commerce book store project" class="rounded-xl mb-4">
+          <h3 class="text-2xl text-cyan-400 font-semibold mb-2">E-Commerce Book Store</h3>
+          <p class="text-gray-400 mb-4">An online bookstore with product filtering and shopping cart functionality.</p>
+          <div class="flex space-x-4">
+            <a href="https://book-nest-eight-umber.vercel.app/" target="_blank" class="bg-cyan-500 text-black px-5 py-2 rounded-lg font-semibold hover:bg-cyan-400">Live Demo</a>
+            <a href="https://github.com/pranav603/BookNest" target="_blank" class="border border-cyan-500 text-cyan-400 px-5 py-2 rounded-lg font-semibold hover:bg-cyan-500/10">GitHub Repo</a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="resume" class="text-center bg-transparent">
+      <!--transparent to show Vanta.js -->
+      <h2 class="text-4xl font-bold mb-4 gradient-text">Resume</h2>
+      <p class="text-gray-400 mb-8">Download my resume to learn more about my skills and journey.</p>
+      <a href="./Assets/PRANAV RAJ - Resume.pdf" download class="bg-cyan-500 hover:bg-cyan-400 text-black px-10 py-4 rounded-full font-semibold transition">Download Resume</a>
+    </section>
+
+    <!-- --- CONTACT SECTION --- -->
+    <section id="contact">
+      <div class="max-w-4xl mx-auto px-6">
+        <h2 class="text-4xl font-bold mb-10 gradient-text text-center">Get In Touch</h2>
+        <form action="https://formsubmit.co/pranavraj273@gmail.com" method="POST" class="space-y-6">
+          
+          
+          <input type="hidden" name="_next" value="https://portfolio1-seven-self.vercel.app/#contact">
+          
+          <input type="hidden" name="_captcha" value="false">
+
+          <div class="grid md:grid-cols-2 gap-6">
+            <div>
+              <label for="name" class="block text-sm font-medium text-gray-300 mb-2">Your Name</label>
+              <input type="text" name="name" id="name" required
+                     class="w-full p-3 bg-gray-900/80 border border-gray-700 rounded-lg text-gray-200 focus:ring-2 focus:ring-cyan-500 focus:border-cyan-500 outline-none transition">
+            </div>
+            <div>
+              <label for="email" class="block text-sm font-medium text-gray-300 mb-2">Your Email</label>
+              <input type="email" name="email" id="email" required
+                     class="w-full p-3 bg-gray-900/80 border border-gray-700 rounded-lg text-gray-200 focus:ring-2 focus:ring-cyan-500 focus:border-cyan-500 outline-none transition">
+            </div>
+          </div>
+          
+          <div>
+            <label for="message" class="block text-sm font-medium text-gray-300 mb-2">Message</label>
+            <textarea name="message" id="message" rows="5" required
+                      class="w-full p-3 bg-gray-900/80 border border-gray-700 rounded-lg text-gray-200 focus:ring-2 focus:ring-cyan-500 focus:border-cyan-500 outline-none transition"></textarea>
+          </div>
+          
+          <div class="text-center">
+            <button type="submit" 
+                    class="bg-cyan-500 text-black font-semibold px-12 py-3 text-lg rounded-full hover:bg-cyan-400 transition-all duration-300 transform hover:scale-105">
+              Send Message
+            </button>
+          </div>
+        </form>
+      </div>
+    </section>
+  </main> 
+
+  <footer class="text-center py-6 border-t border-gray-800 text-gray-500 bg-black/60 relative z-10">
+    <div class="flex justify-center space-x-6 mb-3">
+      <a href="https://github.com/pranav603" target="_blank" class="hover:text-cyan-400 transition-transform hover:scale-125" aria-label="View my GitHub profile">
+        <i class="fab fa-github text-xl" aria-hidden="true"></i>
+      </a>
+      <a href="https://www.linkedin.com/in/pranav-raj-4a0154302/" target="_blank" class="hover:text-cyan-400 transition-transform hover:scale-125" aria-label="View my LinkedIn profile">
+        <i class="fab fa-linkedin text-xl" aria-hidden="true"></i>
+      </a>
+      <a href="#contact" class="hover:text-cyan-400 transition-transform hover:scale-125" aria-label="Email me">
+        <i class="fas fa-envelope text-xl" aria-hidden="true"></i>
+      </a>
+    </div>
+    © 2025 Pranav Raj | Made with ❤️ using Tailwind CSS
+  </footer>
+
+  <!-- --- Vanta.js scripts --- -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/three.js/r134/three.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/vanta@latest/dist/vanta.net.min.js"></script>
+  <script>
+    // --- Initialize Vanta.js ---
+    document.addEventListener('DOMContentLoaded', (event) => {
+      VANTA.NET({
+        el: "#vanta-bg",
+        mouseControls: true,
+        touchControls: true,
+        gyroControls: false,
+        minHeight: 200.00,
+        minWidth: 200.00,
+        scale: 1.00,
+        scaleMobile: 1.00,
+        color: 0x3f8eff, 
+        backgroundColor: 0x0 
+      })
+    });
+  </script>
+  <!-- --- End Vanta.js --- -->
+
+
+  <script src="script.js"></script>
+</body>
+</html>
